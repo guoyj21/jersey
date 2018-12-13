@@ -337,7 +337,7 @@
                         <sourceFileExcludes>
                             <exclude>bundles/**</exclude>
                         </sourceFileExcludes>
-                        <verbose />
+                        <verbose/>
                     </configuration>
                     <executions>
                         <execution>
@@ -807,7 +807,7 @@
         <profile>
             <id>securityOff</id>
             <properties>
-                <surefire.security.argline />
+                <surefire.security.argline/>
             </properties>
         </profile>
         <profile>
@@ -1498,7 +1498,7 @@
         <findbugs.threshold>Low</findbugs.threshold>
         <!-- the exclude file cannot be here directly, as FindBugs would interpret the path as relative to
         each module; the default exclude filter file is at etc/config/findbugs-exclude.xml -->
-        <findbugs.exclude />
+        <findbugs.exclude/>
         <findbugs.glassfish.logging.validLoggerPrefixes>
             javax.enterprise
         </findbugs.glassfish.logging.validLoggerPrefixes>
@@ -1509,8 +1509,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <release.tests.args>-Dmaven.test.skip=false</release.tests.args>
         <skip.tests>false</skip.tests>
-        <xdk.absolute.path />
-        <surefire.security.argline />
+        <xdk.absolute.path/>
+        <surefire.security.argline/>
 
         <!-- Dependency versions -->
         <jersey.version>${project.version}</jersey.version>
@@ -1566,7 +1566,7 @@
         <servlet2.version>2.4</servlet2.version>
         <servlet3.version>3.0.1</servlet3.version>
         <simple.version>5.1.4</simple.version>
-        <spring3.version>3.2.3.RELEASE</spring3.version>
+        <spring3.version>3.2.15.RELEASE</spring3.version>
         <validation.api.version>1.1.0.Final</validation.api.version>
         <weld.version>2.2.8.Final</weld.version>
         <xerces.version>2.11.0</xerces.version>
